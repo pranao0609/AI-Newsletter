@@ -56,12 +56,28 @@ python main.py
 
 ##  Deployment
 
-Deployment configuration and production optimizations are available in:
+This application is ready to deploy on **Render** with PostgreSQL database support.
 
-* `deployment` branch
-* `deployment-final` branch
+### Quick Deploy
 
-Switch branches to access infrastructure setup and final production configuration.
+1. Push to GitHub
+2. Connect to Render
+3. Use the included `render.yaml` for automatic setup
+
+📖 **[Full Deployment Guide](DEPLOYMENT.md)** - Complete step-by-step instructions
+
+### What Gets Deployed
+
+- **PostgreSQL Database** - Stores articles, digests, and metadata
+- **Cron Job Service** - Runs daily to aggregate and email AI news
+- **Automatic Migrations** - Database tables created on first run
+
+### Deployment Files
+
+- `render.yaml` - Infrastructure as code configuration
+- `Dockerfile` - Container configuration
+- `DEPLOYMENT.md` - Detailed deployment guide
+- `.env.example` - Environment variables template
 
 ---
 
