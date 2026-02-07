@@ -1,0 +1,50 @@
+# Core web / API
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+python-dotenv
+requests
+httpx
+anyio
+
+# Parsing / scraping
+beautifulsoup4
+feedparser
+lxml
+markdownify
+markdown
+youtube-transcript-api
+
+# Data handling
+pandas
+numpy
+openpyxl
+
+# AI / NLP
+groq
+transformers
+torch
+torchvision
+huggingface-hub
+tokenizers
+safetensors
+tqdm
+regex
+
+# OCR / images (kept minimal & Windows-safe)
+pillow
+opencv-python-headless
+easyocr
+rapidocr
+pypdfium2
+
+# Utilities
+rich
+typer
+python-dateutil
+pyyaml
+sqlalchemy
+psycopg2-binary
+
+docling
