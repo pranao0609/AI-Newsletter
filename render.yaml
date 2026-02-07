@@ -5,13 +5,14 @@ databases:
     plan: free
 
 services:
-  - type: cron
-    name: daily-digest-job
+  - type: web
+    name: ai-news-aggregator
     runtime: python
     plan: free
     env: docker
     dockerfilePath: ./Dockerfile
-    schedule: "0 9 * * *"  # Run daily at 9 AM UTC
+    dockerCommand: "uvicorn app.web:app --host 0.0.0.0 --port 10000"
+    numInstances: 1
     envVars:
       - key: DATABASE_URL
         fromDatabase:
@@ -23,6 +24,8 @@ services:
         sync: false
       - key: APP_PASSWORD
         sync: false
+      - key: CRON_SECRET
+        generateValue: true
       - key: POSTGRES_USER
         fromDatabase:
           name: ai-news-aggregator-db
