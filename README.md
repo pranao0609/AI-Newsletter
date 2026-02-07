@@ -1,3 +1,4 @@
+![AI Newsletter](Newsletter.png)
 # AI News Aggregator
 
 An end-to-end **AI-powered news aggregation platform** that collects, filters, and summarizes real-time news using intelligent processing and a scalable backend architecture.
@@ -75,3 +76,5 @@ This project showcases the ability to:
 * Prepare and optimize software for **production deployment**
 
 ---
+
+
