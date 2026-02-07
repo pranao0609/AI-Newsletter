@@ -3,7 +3,6 @@
 An end-to-end **AI-powered news aggregation platform** that collects, filters, and summarizes real-time news using intelligent processing and a scalable backend architecture.
 The project demonstrates complete lifecycle development—from **local setup and core AI logic** to **deployment configuration and production optimization**.
 
----
 
 ##  Features
 
@@ -13,7 +12,6 @@ The project demonstrates complete lifecycle development—from **local setup and
 * Environment-based **deployment configuration**
 * **Production-ready optimizations** for performance and stability
 
----
 
 ##  Tech Stack
 
@@ -22,14 +20,13 @@ The project demonstrates complete lifecycle development—from **local setup and
 * **API Integration** – News data sourcing
 * **Deployment Tools** – Environment configuration and hosting setup
 
----
 
 ##  Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/pranao0609/AI-Newsletter.git
 cd ai-news-aggregator
 ```
 
@@ -52,8 +49,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
-
 ##  Deployment
 
 Deployment configuration and production optimizations are available in:
@@ -63,7 +58,6 @@ Deployment configuration and production optimizations are available in:
 
 Switch branches to access infrastructure setup and final production configuration.
 
----
 
 ##  Learning Outcomes
 
@@ -74,4 +68,3 @@ This project showcases the ability to:
 * Integrate **AI workflows into real-world systems**
 * Prepare and optimize software for **production deployment**
 
----
