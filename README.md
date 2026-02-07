@@ -49,16 +49,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-##  Deployment
-
-Deployment configuration and production optimizations are available in:
-
-* `deployment` branch
-* `deployment-final` branch
-
-Switch branches to access infrastructure setup and final production configuration.
-
-
 ##  Learning Outcomes
 
 This project showcases the ability to:
