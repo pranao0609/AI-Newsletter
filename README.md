@@ -1,50 +1,77 @@
-# AI News Aggregator - Live Build Repository
+# AI News Aggregator
 
-This repository accompanies my 3-hour live coding session where I build a complete AI-powered news aggregator from scratch. This is a **private repository** containing valuable implementation details and deployment strategies used in production environments.
+An end-to-end **AI-powered news aggregation platform** that collects, filters, and summarizes real-time news using intelligent processing and a scalable backend architecture.
+The project demonstrates complete lifecycle development—from **local setup and core AI logic** to **deployment configuration and production optimization**.
 
-## Project Structure
+---
 
-This project is organized across three branches, each corresponding to a different phase of the build:
+##  Features
 
-- **`master`** - Part 1: Local setup and core functionality
-- **`deployment`** - Part 2: Deployment configuration and infrastructure
-- **`deployment-final`** - Part 3: Final optimizations and production-ready changes
+* Real-time **news data collection and preprocessing**
+* **AI-based filtering and summarization** of articles
+* Clean, modular **backend architecture for scalability**
+* Environment-based **deployment configuration**
+* **Production-ready optimizations** for performance and stability
 
-Each branch serves as an intermediate checkpoint, allowing you to reference the exact state of the codebase at any point during the video.
+---
 
-## How This Video Works
+##  Tech Stack
 
-This is a **live coding build**, not a traditional step-by-step tutorial. Here's what to expect:
+* **Python** – Core backend logic
+* **AI/NLP Libraries** – News filtering and summarization
+* **API Integration** – News data sourcing
+* **Deployment Tools** – Environment configuration and hosting setup
 
-- **Fast-paced development** - I code at my natural pace, leveraging AI tools extensively
-- **AI-assisted workflow** - You won't see every code snippet or file generation in real-time
-- **Real-world approach** - This condenses 20-40 hours of learning into a single session
-- **Not cookie-cutter** - Unlike structured tutorials, this reflects how coding actually happens in practice
+---
 
-## How to Follow Along
+##  Getting Started
 
-### Recommended Approach (Maximum Learning)
+### 1. Clone the Repository
 
-1. **Clone this repository** before starting the video
-2. **Keep a local copy ready** on your system as you code along
-3. **Use intermediate checkpoints** - When I make major updates or run tests, pause and:
-   - Reference the corresponding branch in this repository
-   - Copy relevant code snippets into your project
-   - Use AI coding assistants to help you reach the same checkpoint
-4. **Iterate step-by-step** - Don't rush ahead. Ensure each phase works before moving forward
-5. **Expect confusion** - Some parts will move fast and may not be immediately clear. This is where real learning happens
+```bash
+git clone <your-repo-url>
+cd ai-news-aggregator
+```
 
-### Alternative Approach (Not Recommended)
+### 2. Create Virtual Environment
 
-You can skip ahead to the `deployment-final` branch and try to get everything working, but you'll miss the iterative problem-solving process that makes this valuable.
+```bash
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+```
 
-## Why This Approach?
+### 3. Install Dependencies
 
-Traditional tutorials show you the "right way" to do things. This video shows you the **real way** - with AI assistance, rapid iteration, debugging, and adapting on the fly. By following along and hitting the same checkpoints, you'll:
+```bash
+pip install -r requirements.txt
+```
 
-- Learn how to effectively leverage AI coding tools
-- Understand the thought process behind architectural decisions
-- Experience real-world development workflows
-- Build muscle memory through hands-on practice
+### 4. Run the Application
 
-**The most valuable learning happens when you struggle, reference the code, and push through to the next checkpoint.**
+```bash
+python main.py
+```
+
+---
+
+##  Deployment
+
+Deployment configuration and production optimizations are available in:
+
+* `deployment` branch
+* `deployment-final` branch
+
+Switch branches to access infrastructure setup and final production configuration.
+
+---
+
+##  Learning Outcomes
+
+This project showcases the ability to:
+
+* Build a **complete AI-powered application** from scratch
+* Design **scalable backend architecture**
+* Integrate **AI workflows into real-world systems**
+* Prepare and optimize software for **production deployment**
+
+---
